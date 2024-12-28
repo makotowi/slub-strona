@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ślub Marty i Grześka</title>
+    <link rel="stylesheet" href="/Poprawiny/poprawiny.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header id="hero">
+      <div class="overlay">
+        <div class="hero-content">
+          <h1 class="hero-title">Poprawiny</h1>
+          <p class="hero-date">Dołącz do nas na poprawinach</p>
+          <button onclick="scrollToSection('about')" class="btn-primary">
+            Przejdź dalej
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <a href="/index.html" class="nav-link" target="_blank">Ślub</a>
+      <a href="/wesele/wesele.html" class="nav-link" target="_blank">Wesele</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Nasze Poprawiny</h2>
+        <p>
+          Podlaska tradycja nakazuje aby wesele świętować hucznie cały tydzień a
+          nawet i miesiąc :) Po weselu następnego dnia zapraszamy na obiad zwany
+          poprawinami.
+        </p>
+      </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations" class="section">
+      <div class="container">
+        <h2>Lokalizacja i Kalendarium</h2>
+        <div class="location-card">
+          <h3>Gdzie:</h3>
+          <p><strong>Loka:</strong> Hotel Drohicki</p>
+          <p><strong>Adres:</strong> Zajęczniki 117</p>
+          <button
+            class="button-d"
+            onclick="window.location.href='https://hoteldrohicki.pl/';"
+          >
+            Strona Hotelu
+          </button>
+        </div>
+        <div class="location-card">
+          <h3>Harmonogram</h3>
+          <p><strong>Data:</strong> 26.07.2025</p>
+          <p><strong>Godzina:</strong> 14:00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="section">
+      <div class="container">
+        <h2>Find Us</h2>
+        <div id="map-container">
+          <!-- Embed Google Map here -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.6529481188154!2d22.704143012642863!3d52.39484144537127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4721d81f55eceee5%3A0x3bfb79d98f3698c7!2sHotel%20Drohicki!5e0!3m2!1spl!2spl!4v1730405670233!5m2!1spl!2spl"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dress Code Section -->
+    <section id="dress-code" class="section">
+      <div class="container">
+        <h2>Ubiór</h2>
+        <p>Ubierz ubranie na ostre chlanie</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Dzień Ślubu Marty i Grześka</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/Poprawiny/poprawiny.js"></script>
+  </body>
+</html>
